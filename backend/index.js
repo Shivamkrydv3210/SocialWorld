@@ -14,7 +14,7 @@ const app = express();
 
 // CORS middleware
 const corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: 'https://socialworld-3.onrender.com',
     credentials: true
 };
 app.use(cors(corsOptions));
